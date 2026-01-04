@@ -2,9 +2,9 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Codename: ios
 Components: main
 Date: Fri, 02 Jan 2026 03:34:30 +0000
-Description: 刀刀个人插件源~
-Label: 刀刀源
-Origin: 刀刀源
+Description: dpp个人插件源~
+Label: dpp源
+Origin: dpp源
 Suite: stable
 Version: 1.0
 MD5Sum:
