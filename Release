@@ -1,41 +1,8 @@
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Codename: ios
-Components: main
-Date: Fri, 02 Jan 2026 03:34:30 +0000
-Description: 刀刀个人插件源~
-Label: 刀刀源
-Origin: 刀刀源
+Origin: 我的个人源	
+Label:我的个人源
 Suite: stable
 Version: 1.0
-MD5Sum:
- ce7f427735ea254d2b1677b329bddcd0           682126 Packages
- 17ae1894167ff7bc40049c98d5789ea9           149521 Packages.bz2
- 797ae29dd4c4125ea05a473d132e8a4e           213705 Packages.gz
- 5a8d953fc294d43b3837d10bbefd53c5           156333 Packages.lzma
- ea67d94584871dbaf4a9949ce4b3a7c4           156396 Packages.xz
- 98f4e12a667f7413d90405ef94c6bb73           191053 Packages.zst
- 24775e831b1b73b3f3a718df533b84cc              226 Release
-SHA1:
- fceab5e9955c119e98668a5b9619f85f967a6014           682126 Packages
- 339b073554bf11c91a9adaf9284a6494429c8f05           149521 Packages.bz2
- 5cb4799b89abdc5cf79c5ccc3d5ec1498095a0c7           213705 Packages.gz
- b8d24fec37bfc386d1079b8e0f8034a5e2cd0372           156333 Packages.lzma
- 0c3b0e647c966585a931b531ed11ec4c8b52147a           156396 Packages.xz
- 750aeafd2f76a73e8aa764722627870d14e4ca48           191053 Packages.zst
- 1344925522b710a40f7e823416b0b42898361a93              226 Release
-SHA256:
- 54688f7a06945dfb6f98867505839a3d26188abd7c30d790f5275f2142edf0b8           682126 Packages
- 4f40dc19a58f09623017c82127e680b01c5614149f8d70d5fd93fc565058dafc           149521 Packages.bz2
- 23884c0ca4b3eef3065e3dbb890c356853031b00a5de4e9418d26fb874b9a5ee           213705 Packages.gz
- 94d2350f4762084af5419e25d5879e435f36e188c0c86f9587232021c7782000           156333 Packages.lzma
- 7b7173352f8f4a65c83d1e23d0d75c3122c3bf093c36d2f0ec554aae521616d7           156396 Packages.xz
- cc0ea1887231ab1ef6c3e1ee6f6d31df0ab38d72b35d38d46a6fe80c0150350c           191053 Packages.zst
- 76587a44cdbd045c672a4036f26a1a1e6809616a574e9f3e52338ab6b1228519              226 Release
-SHA512:
- 1aa8a0f732ff65320936d912e5bb90b59157b3c4eb2c80eeaeaa4c6a68313fd22a62ccf1c96309ebe0ff3a41dc8147294c195008c4c204c2dec15d50fc61ed3f           682126 Packages
- a93e2bce35584241bc0e97367b3af88d36cebe3db49aa87fe83274eeba7c47aa7da65da33d47bd465b8e2bf0f4621ebea207cc006020545ea083ca54eee3a97f           149521 Packages.bz2
- e31ea7fbb315f09b53f757e0890697f00de82cb65e69b4e34c3e4965a46dd8182d5ed1102861aa781e36b781536cc9ebf23db62a6eb56ea91ceef4d3cbd06695           213705 Packages.gz
- d1b1b91a097680744c08a7fb282479ff88aead2939df1ffeb16f611da9f1e10ad2ca10af1005b576c2217351bbd7ac5e13611263711f65a41fc21d25a61735ff           156333 Packages.lzma
- 9724378a0fa0209aa5906b1fe3f6c1e219c6ce1e527f752e97b9e9304a019ca95c7cc9da3ab12723c89f1986aa37a182f99fbdcf7317b23e205631caad1332fb           156396 Packages.xz
- 1263dc5e94c8d340c0e5f89a88395581579d5dd61716afab14ad6307de35426f9bc52a2f7090f4350606b0b3c094ad14ba7d4ae8b5cd9b17d750025a8255e1dc           191053 Packages.zst
- 6e336d0a6c6129ec8ed40f9f557685eeffb52c2cbba745cf5186bfdd4505d532d7fccbeef604ca700d957cd8320263dfe5f232a05d26aac7c8d394fc903a6c0f              226 Release
+Codename: 我的个人源
+Architecture: iphoneos-arm
+Components: main
+Description: 我的个人源 Tweaks
