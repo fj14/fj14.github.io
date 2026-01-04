@@ -1,0 +1,50 @@
+name: Update Repo Automatically
+
+on:
+  push:
+    paths:
+      - 'rootless/**'
+    branches: [ main ]
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y dpkg-dev xz-utils bzip2 zstd
+        
+    - name: Generate Packages
+      run: |
+        rm -f Packages Packages.*
+        dpkg-scanpackages --multiversion debs/roothide > Packages
+        dpkg-scanpackages --multiversion debs/rootless >> Packages
+        dpkg-scanpackages --multiversion debs/rootful >> Packages
+        
+        gzip -c Packages > Packages.gz
+        bzip2 -c Packages > Packages.bz2
+        xz -c Packages > Packages.xz
+        zstd -c Packages > Packages.zst
+        
+        apt-ftparchive\
+         -o APT::FTPArchive::Release::Origin="刀刀源"\
+         -o APT::FTPArchive::Release::Label="刀刀源"\
+         -o APT::FTPArchive::Release::Suite="stable"\
+         -o APT::FTPArchive::Release::Version="1.0"\
+         -o APT::FTPArchive::Release::Codename="ios"\
+         -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e"\
+         -o APT::FTPArchive::Release::Components="main"\
+         -o APT::FTPArchive::Release::Description="刀刀个人插件源~"\
+         release . > Release
+        
+    - name: Commit and push
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add .
+        git commit -m "auto: sync packages" || echo "No changes"
+        git push
