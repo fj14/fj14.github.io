@@ -14,14 +14,14 @@ cat Packages | lzma > Packages.lzma
 cat Packages | zstd > Packages.zst
 
 apt-ftparchive\
- -o APT::FTPArchive::Release::Origin="刀刀源"\
- -o APT::FTPArchive::Release::Label="刀刀源"\
+ -o APT::FTPArchive::Release::Origin="dpp隐私保护"\
+ -o APT::FTPArchive::Release::Label="dpp隐私保护"\
  -o APT::FTPArchive::Release::Suite="stable"\
  -o APT::FTPArchive::Release::Version="1.0"\
  -o APT::FTPArchive::Release::Codename="ios"\
  -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e"\
  -o APT::FTPArchive::Release::Components="main"\
- -o APT::FTPArchive::Release::Description="刀刀个人插件源~"\
+ -o APT::FTPArchive::Release::Description="仅用于学习交流"\
  release . > Release
 
 echo "3、推送提交"
