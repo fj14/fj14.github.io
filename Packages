@@ -53,3 +53,20 @@ Author: Apple
 Icon: xx
 Name: DPP
 
+Package: run.er.wormctrl
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: 神秘人
+Installed-Size: 1172
+Depends: mobilesubstrate, preferenceloader
+Filename: rootless/无根黑洞_1.1.0_iphoneos-arm64.deb
+Size: 168516
+MD5sum: 06bf630bae4620c4b0a03205e4e3b910
+SHA1: 56a23dc43d74629eaef76864df5e8cda5e50d608
+SHA256: 735927635ba3053d027bc2791921c25a78019f74170d703474136306d329bef5
+Section: 多巴胺免费插件
+Description: This is the plugin of blackhole.
+Tag: role::hacker
+Author: 神秘人
+Name: 无根黑洞
+
