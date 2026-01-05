@@ -1,9 +1,7 @@
-[![iOS](https://img.shields.io/badge/刀刀源-f13232?style=flat-square&logo=apple&logoColor=ffffff)](https://xiangfeidexiaohuo.github.io/)
-
-[![iOS](https://img.shields.io/badge/刀刀源频道-r45432?style=flat-square&logo=apple&logoColor=ffffff)](https://t.me/ae86_dao)
-
-
-#### ❤️ 支持 rootful 和 rootless、roothide，以汉化包为主，还有一些功能插件。
+ios高系统软改 dpp软改最新版
+支持UDID长码短码，iOS系统支持15--16系统，只要能越狱就可以
+多巴胺越狱或者palera1n越狱都可以使用
+14码全改，改完不影响商城下载，懂得来
 
 
 
