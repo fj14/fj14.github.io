@@ -1,4 +1,4 @@
-Package: dev.sys.dippr
+Package: dev.sys.dipp
 Version: 1.0
 Architecture: all
 Maintainer: DPP
@@ -37,22 +37,19 @@ Tag: purpose::daemon, role::enduser
 Author: saurik, Cannathea <csupport@cannathea.com>
 Name: AFC2(rootless)
 
-Package: dev.sys.dipp
+Package: dev.sys.dpprootless
 Version: 1.0
 Architecture: all
 Maintainer: DPP
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: rootless/dpp-rootless.deb
-Size: 3691180
-MD5sum: c136bac5b39a74829503751789606d92
-SHA1: 412d282390b8d97384e425fd9ae03564e98b4a85
-SHA256: f4696e707eeed06e27d9e076cb392ea37fd0463a4eb2c5497f050a321d5fe1f9
+Filename: rootless/dpp.deb
+Size: 3691100
+MD5sum: 15c6825c1293a9d894904e42d108317f
+SHA1: 3b90ee3855db5f4c38ea598b3ad4b65d7b09e539
+SHA256: 607feb2d751ebee1aa0986cda1c2824edcdc41a398a8f1d11ef42f361422fa3a
 Section: Tweaks
 Priority: optional
-Description: DPP隐私保护
 Author: Apple
-Depiction: DPP
-Dev: Apple
 Icon: xx
 Name: DPP
 
